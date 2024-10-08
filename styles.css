@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+
+#head{
+    color:white;
+    font-size:50px;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    row-gap: 5px;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#cell0, #cell1,#cell2,#cell3,#cell4,#cell5,#cell6,#cell7,#cell8{
+    width:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    background-color: white;
+    color:black;
+    cursor: pointer;
+    text-align: center;
+    font-size: 32px;
+}
+
+#btn{
+    background-color: white;
+    color:black;
+    font-size: 22px;
+    padding:12px;
+    cursor: pointer;
+    border-radius: 8px;
+}
